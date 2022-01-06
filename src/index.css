@@ -1,0 +1,36 @@
+/* #update-btn {
+    color: #fff;
+    background: #573EC0;
+    border-radius: 4px;
+    width: 100%;
+    padding: 6px;
+}
+
+.btn-primary {
+    background: #573EC0 none;
+    border: none; 
+    padding: 8px;
+    border-radius: .4em;
+}
+.btn:hover, .btm:active {
+    background: #4B36A6;
+}
+*/
+/* ----- Color schemes ----- */
+:root {
+    --navy-dark1: #001341;
+    --navy-dark2: #2D3C62;
+    --navy-dark3: #566281;
+    --navy-light2: #E7E9ED;
+    --navy-light3: #DBDEE5;
+    --gray-dark1: #333F48;
+    --gray-dark3: #58646C;
+    --gray-light2: #E8EAEB;
+    --gray-52: #7A7C7F;
+    --violet-purple: #573EC0;
+    --violet-purple-hover: #2C2981;
+    --violet-purple-box: #6200EE;
+    --white: #ffffff;
+    --status-positive: #007744;
+    --status-negative: #CC0033;
+} 

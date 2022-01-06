@@ -6,10 +6,14 @@ function App() {
   return (<div align="center">
     <h1>Umo Shuttle</h1>
 
-    <img src="/img/bus-outlined.png" alt="Shuttle"/>
+    <p><img src="/img/Umo_Shuttle_Header.png" alt="Umo Shuttle"/></p>
 
-    <Table><tr align="center"><td>
-    <Dropdown>
+    <p><img src="/img/Mapsicle_Map.png" alt="Display Map here.."/></p>
+
+
+    <Table><tr align="center"><td></td></tr>
+    <tr align="center"><td>
+    <Dropdown class="btn-primary">
       <Dropdown.Toggle variant="success">Select City</Dropdown.Toggle>
         <Dropdown.Menu>
           <Dropdown.Item href="#">
