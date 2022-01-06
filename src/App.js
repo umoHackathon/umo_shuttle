@@ -1,50 +1,35 @@
-import Dropdown from 'react-bootstrap/Dropdown';
-import Table from 'react-bootstrap/Table';
-
 
 function App() {
-  return (<div align="center">
+  return (
+  <div align="center">
     <h1>Umo Shuttle</h1>
 
     <p><img src="/img/Umo_Shuttle_Header.png" alt="Umo Shuttle"/></p>
 
     <p><img src="/img/Mapsicle_Map.png" alt="Display Map here.."/></p>
 
-
-    <Table><tr align="center"><td></td></tr>
-    <tr align="center"><td>
-    <Dropdown class="btn-primary">
-      <Dropdown.Toggle variant="success">Select City</Dropdown.Toggle>
-        <Dropdown.Menu>
-          <Dropdown.Item href="#">
-            City1
-          </Dropdown.Item>
-          <Dropdown.Item href="#">
-            City2
-          </Dropdown.Item>
-          <Dropdown.Item href="#">
-            City3
-          </Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
-      </td></tr>
-      <tr align="center"><td>
-      <Dropdown>
-      <Dropdown.Toggle variant="success">Select Hotel</Dropdown.Toggle>
-        <Dropdown.Menu>
-          <Dropdown.Item href="#">
-            Hotel1
-          </Dropdown.Item>
-          <Dropdown.Item href="#">
-            Hotel2
-          </Dropdown.Item>
-          <Dropdown.Item href="#">
-            Hotel3
-          </Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
-      </td></tr></Table>
+    <div>
+      <label for="cars">City: </label>
+        <select name="city" id="city" className="input-button">
+          <option value="select">Select</option>
+          <option value="chicago">Chicago</option>
+          <option value="san francisco">San Francisco</option>
+          <option value="san diego">San Diego</option>
+          <option value="new york">New York</option>
+        </select>
     </div>
+    <div>
+      <label for="cars">Hotel: </label>
+      <select name="hotel" id="hotel" className="input-button">
+        <option value="select">Select</option>
+        <option value="hilton">Hilton</option>
+        <option value="hyatt">Hyatt</option>
+        <option value="holiday inn">Holiday Inn</option>
+        <option value="hampton inn">Hampton Inn</option>
+        <option value="wyndham">Wyndham</option>
+      </select>
+    </div>
+  </div>
   );
 }
 
