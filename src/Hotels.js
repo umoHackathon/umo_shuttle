@@ -6,7 +6,6 @@ function Hotels(props) {
     else {
         return (
             <div>
-
                 <label htmlFor="hotels">Hotel: </label>
                 <select name="hotel" id="hotel" className="input-button">
                     <option value="select">Select</option>
