@@ -1,7 +1,7 @@
 function Hotels(props) {
-    alert(props.text);
-    if (props.text === "Select") {
-        return (<div>none</div>)
+
+    if (props.text === "") {
+        return (<div></div>)
     }
     else {
         return (
