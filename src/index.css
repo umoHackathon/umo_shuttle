@@ -17,9 +17,30 @@
 }
 */
 /* ----- Color schemes ----- */
-.navbar.navbar-default {
-    border-bottom: 0;
-  }
+.title {
+    padding-top: 10px;
+    font-family: "Nunito", "sans-serif", "SF Pro", "Roboto", "Lato", "Arial";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.06em;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--navy-dark1);
+}
+
+.caption {
+    padding: 5px 0px;
+    margin: 0px 2px;
+    font-weight: normal;
+    font-size: 0.875em;
+    line-height: 1.25em;
+    display: flex;
+    align-items: start;
+    align-content: center;
+    text-align: left;
+    letter-spacing: 0.25px;
+    color: var(--navy-dark2);
+}
 
 .input-button {
     border: 0px;
@@ -37,7 +58,6 @@
     background: var(--navy-light3);
     color: var(--gray-dark3);
     cursor: pointer;
-    width: 20%;
 }
 
 
